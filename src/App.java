@@ -16,10 +16,10 @@ public class App {
                 // Load and register the Driver Class
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 // System.out.println("*");
-
                 // Get Connection
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_info", "root",
                         "Accurate31052005@#$!");
+                        
                 System.out.println("+-------------------------------------------+");
                 System.out.println("Press 1 for Insert value into Database");
                 System.out.println("Press 2 for Read All Value from Database");
